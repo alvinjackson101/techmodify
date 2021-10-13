@@ -1,0 +1,25 @@
+.btn-primary{
+    background:$primary !important;
+    border:$primary !important;
+    &:hover{
+        background:$primary !important;
+    border:$primary !important; 
+    }
+}
+
+.custom-btn-sm{
+  
+		width:rem(170px
+        );
+		height:rem(45px);
+		font-size:rem(14px) !important;
+		color:$white;
+		font-weight:bold;
+		border-radius: rem(20px) !important;
+
+        &:hover{
+            box-shadow: 0px 3px 20px #1E7138D3;  
+            color:$black !important;
+            transition: 1s all ease-in-out;
+        }
+}

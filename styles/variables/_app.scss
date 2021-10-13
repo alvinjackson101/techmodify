@@ -1,0 +1,17 @@
+
+
+$font-size-base: 0.875rem !default; // Assumes the browser default, typically `16px`
+
+
+
+$black:#000;
+$gray-60:#242424;
+$white:#fff;
+$yellow-200:#ffc400;
+$white-100:#fafafa;
+$primary:#34a852 !default;
+$theme-colors: ("primary": $primary) !default ;
+
+$input-placeholder-color: $white !default;
+$input-focus-color:        $white !default;
+

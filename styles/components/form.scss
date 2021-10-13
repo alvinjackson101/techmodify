@@ -1,0 +1,86 @@
+.form-field {
+	margin-bottom: rem(14px);
+	.form-control {
+		border-radius: rem(40px);
+		background: $gray-60;
+		padding: 0 rem(22px);
+		border: 0;
+		height: 45px;
+		color: $white;
+		font-weight: bold;
+		font-size: rem(14px);
+		border: 1px solid transparent;
+		@media only screen and (max-device-width: 399px) and (min-device-width: 390px) and (max-device-height: 844px) {
+			padding: 0 rem(14px);
+		}
+		&:focus {
+			background: $gray-60;
+			border: 1px solid $primary;
+			color: $white;
+      
+		}
+
+	}
+}
+
+textarea {
+	resize: none !important;
+	padding-top: rem(14px) !important;
+	min-height: rem(116px) !important;
+	border-radius: rem(20px) !important;
+	.form-control {
+		height: 100%;
+	}
+}
+
+
+/* WebKit browsers */
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+	color: transparent;
+ 
+}
+
+
+/* Mozilla Firefox 4 to 18 */
+
+input:focus:-moz-placeholder,textarea:focus:-moz-placeholder {
+	color: transparent;
+
+}
+
+
+/* Mozilla Firefox 19+ */
+
+input:focus::-moz-placeholder,textarea:focus::-moz-placeholder {
+	color: transparent;
+
+}
+
+
+/* Internet Explorer 10+ */
+
+input:focus:-ms-input-placeholder,textarea:focus:-ms-input-placeholder {
+	color: transparent;
+
+}
+
+
+/* Change Autocomplete styles in Chrome*/
+input:-internal-autofill-selected,
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	-webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+  box-shadow: 0 0 0px 1000px transparent inset !important;
+	transition: background-color 5000s ease-in-out 0s !important;
+  color:  white !important;
+  background-color: transparent !important;
+}
