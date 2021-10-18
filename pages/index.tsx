@@ -12,6 +12,7 @@ export default function Home() {
   const [state, setState] = useState('');
   const onContacted = (s: any) =>{
     setState(s);
+    setTimeout(() => setState(''), 5000);
   }
   return (
     <>
