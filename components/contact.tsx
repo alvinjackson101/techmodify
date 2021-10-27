@@ -52,7 +52,7 @@ export default function Contact( {onContacted} : ContactProps) {
   return (
     <>
       <div className="app-form">
-        <form autoComplete="off" method="POST" data-netlify="true" onSubmit={handleSubmit}>
+        <form autoComplete="off" method="POST" data-netlify="true" action="/">
         <input type="hidden" name="form-name" value="contact" />
           <div className="row">
             <div className="col-md-12">
